@@ -1,0 +1,25 @@
+# Ignore a specific file
+secrets.env
+
+# Ignore all files with an extension
+*.log
+
+# Ignore a folder
+node_modules/
+
+# Ignore a folder anywhere in the tree
+**/temp/
+
+# Ignore files only in the root
+/config.json
+
+# Ignore everything in a folder except one file
+build/*
+!build/keep-this.txt
+
+# Wildcard match
+*.tmp
+*.bak
+
+# Ignore a specific file only at root
+/.env
